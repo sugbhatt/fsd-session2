@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+}
+.header-container {
+    height: 12vh;
+    background-color: cadetblue;
+    border-bottom: 2px solid coral;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.branding-logo {
+    height: 10vh;
+    width: 15vw;
+}
+.nav-bar {
+    margin-left: 10vw;
+}
+.nav-bar ul {
+    list-style: none;
+}
+.nav-bar ul li {
+    display: inline;
+    padding: 1em;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #ffff;
+}
+.nav-bar ul li a:hover {
+    color: coral;
+    border-bottom: 1px solid coral;
+    padding-bottom: 1em; 
+
+}
+button {
+    background: coral;
+    color: #ffff;
+    width: 10vw;
+    padding: 1em;
+    border: 2px solid #ffff;
+    border-radius: 5px;
+}
+button:hover{
+    background: #ffff;
+    color: coral;
+    border: 2px solid coral;
+}
+.hero-unit-container{
+    background: url("../images/bg1.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 70vh;
+}
+.hero-unit-mask{
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.4);
+}
+.hero-unit-container h2 {
+    margin: 0;
+    padding-top: 20vh;
+    font-size: 5em;
+}
+.hero-unit-container a{
+    display: block;
+    background: coral;
+    color: #ffff;
+    text-decoration: none;
+    border: 2px solid #ffff;
+    border-radius: 5px;
+    width: 10vw;
+    padding: 1em;
+    margin: 5vh auto;
+    font-size: 1.2em;
+}
+.hero-unit-container a:hover{
+    background: #ffff;
+    color: coral;
+    border: 2px solid coral;
+}
+.paper-layout-container {
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+}
+.paper-layout-container h2 {
+    text-align: center;
+}
+.paper-card-container{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    padding: 1em;
+    background: #ffff;
+    height: 50vh;
+    width: 25vw;
+    box-shadow: 5px 5px 25px gray;
+    text-align: center;
+}
+.card img {
+    height: 20vh;
+    width: 15vw;
+}
+footer{
+    background: cadetblue;
+    border: 2px solid coral;
+    text-align: center;
+    height: 12vh;
+}
